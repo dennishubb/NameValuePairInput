@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+ <title>Key Value Pair Entry Program</title>
+ <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+ </head>
+ <body>
+ <h2>Name/Value pair</h2>
+ <input type="text" id="nameValueInput" style="width: 300px; margin-left: 5px;" placeholder="Name=Value"></input> <button type="button" style="margin-left: 3px;" id="add">add</button>
+
+ <h2>Name/Value pair list</h2>
+
+ <div  style="display: flex;">
+    <select id="nameValueList" Size=20 class="form-control"style="width: 300px; margin-left:5px;" multiple>
+
+    </select>
+    <div style="width: 8px;"></div>
+    <!-- button group -->
+    <div style="display: block;">
+        <button style="display: block; margin-bottom: 10px;" id="sortByName">Sort by name</button>
+        <button style="display: block; margin-bottom: 10px;" id="sortByValue">Sort by value</button>
+        <button style="display: block; margin-bottom: 10px;" id="delete">Delete</button>
+        <button style="display: block; margin-bottom: 10px;" id="saveXML">Save as XML</button>
+        <button style="display: block; margin-bottom: 10px;" id="loadXML">Load XML</button>
+        <input type='file' id="getFile" style="display:none">
+    </div>
+</div>
+ 
+ </body>
+ <script src="js/jquery/jquery-3.7.0.slim.min.js"></script>
+ <script src="js/bootstrap/bootstrap.min.js"></script>
+ <script src="js/main.js"></script> 
+</html>
